@@ -2,13 +2,14 @@
 
 /**
  * main - prints to string 
- * Description: Prints "and the piece of art is useful.." without puts
+ * Description: Prints "and that piece of art is useful.." without puts
  * Return: 1
  */
+
 int main(void)
 {
-	char *s = "and the piece of art is useful\"
-	- "Dora Korpar, 2015-10-19\n";
+	char *s = "and that piece of art is useful\"
+	- Dora Korpar, 2015-10-19\n";
 	long l = 59;
 	long fd = 1;
 	long syscall = 1;
@@ -18,6 +19,6 @@ int main(void)
 	: "a" (syscall),
 	"D" (fd),
 	"S" (s),
-	"d" (l);
+	"d" (l));
 	return (1);
 }
