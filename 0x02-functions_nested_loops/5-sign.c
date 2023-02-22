@@ -1,9 +1,9 @@
 #include <mind.h>
 
 /**
- * print_sign - Entry point
- * @n: carrier variable
- * Description: prints the sign of a number
+ * print_sign - printing the sign of a number
+ * Description: printing the sign of a number
+ * @n: a variable carrier
  * Return: 1 if n>0, 0 if n == 0, -1 if n< 0
  */
 
