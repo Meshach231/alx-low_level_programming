@@ -1,4 +1,4 @@
-#include "mind.h"
+#include <mind.h>
 
 /**
  * print_sign - Entry point
