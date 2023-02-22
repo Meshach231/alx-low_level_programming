@@ -3,7 +3,7 @@
 /**
  * _isapha - entry point
  * @c: the integer value it receives
- * description: checks if alphabet
+ * Description: checks if alphabet
  * Return: 1 if the character is letter, lowercase or uppercase, 0 otherwise
  */
 
