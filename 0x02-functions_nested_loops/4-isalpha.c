@@ -4,7 +4,7 @@
  * _isapha - entry point
  * @c: the integer value it receives
  * Description: checks if alphabet
- * Return: 1 if the character is letter, lowercase or uppercase, 0 otherwise
+ * Return: 1 if true. 0 if false.
  */
 
 int _isapha(int c)
