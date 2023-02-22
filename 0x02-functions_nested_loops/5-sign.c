@@ -1,4 +1,4 @@
-#include <mind.h>
+#include "main.h"
 
 /**
  * print_sign - printing the sign of a number
