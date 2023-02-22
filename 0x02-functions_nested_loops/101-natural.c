@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - entry point
  * Description: Print sum of all multiples of 3 and 5 upto 102
