@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _isapha - entry point
+ * _isalpha - Function that checks for alphabetuc character
+ * Description: check if a character is a letter lowercase or uppercase
  * @c: the integer value it receives
- * Description: checks if alphabet
  * Return: 1 if true. 0 if false.
  */
 
-int _isapha(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
