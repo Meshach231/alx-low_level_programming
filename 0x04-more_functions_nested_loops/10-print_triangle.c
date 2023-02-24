@@ -2,8 +2,8 @@
 
 /**
  * print_triangle - check for a digit
- * @size: integer type
- * Return:void
+ * @size : integer type
+ * Return: void
  */
 
 void print_triangle(int size)
@@ -29,5 +29,5 @@ void print_triangle(int size)
 		i++;
 	}
 	if (i == 1)
-		_putchar('\n);
+		_putchar('\n');
 }
