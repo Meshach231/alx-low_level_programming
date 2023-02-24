@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Fizz Buzz code
@@ -18,7 +18,7 @@ int main(void)
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fiss");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
@@ -26,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%1", i);
+			printf("%i", i);
 		}
 		if (i != 100)
 		{
@@ -37,3 +37,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
