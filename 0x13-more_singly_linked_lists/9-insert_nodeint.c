@@ -7,7 +7,7 @@
  * @idx: index of listint_t where new node4 will insert
  * @n: value for new node
  *
- * Return: pointer to address the new node ELSE NULL if error
+ * Return: pointer to address the new node Else NULL if error
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -20,7 +20,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx != 0)
 	{
 		present = *head;
-		for (node = 0; node < idx - 1 && current != NULL; node++)
+		for (node = 0; node < idx - 1 && present != NULL; node++)
 		{
 			present = present->next;
 		}
